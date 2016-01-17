@@ -1,11 +1,13 @@
 {
-	"origin":["{svg <svg viewBox=\"0 0 40 20\">#line1#</svg>}"],
+	"origin":["#choices#"],
+
+	"staff":["<rect y=\"4\" width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"  /><rect y=\"6\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"8\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"10\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"12\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\" />"],
 	
 	"lines":["#line1#", "#line2#"],	
 
-	"line1":["<polyline points=\"#whichdigit#, #whichdigit#, #whichdigit#, #whichdigit#, #whichdigit#, #whichdigit#, #small#\" style=\"fill:none;stroke:\\##color#;stroke-width:#range#;\"    />"],
+	"line1":["<polyline points=\"#whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:\\##color#;stroke-width:#range#;\"    />"],
 
-	"line2":["<path d=\"m 0 #whichdigit# q #whichdigit# #whichdigit# #whichdigit# #whichdigit# q #whichdigit# #whichdigit# #whichdigit# #whichdigit# q #whichdigit# #whichdigit# #whichdigit# #whichdigit# q #whichdigit# #whichdigit# #whichdigit# #whichdigit# q #whichdigit# #whichdigit# \" style=\"fill:none;stroke:\\##color#;stroke-width:#range#;\"  />"],
+	"line2":["<path d=\"M #digit# #digit# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# 40 1 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:\\##color#;stroke-width:#range#;\"  />"],
 	
 	"rect":["<rect x=\"#digit##digit#\" y=\"#digit##digit#\" height=\"#leastone##digit#\" width=\"#leastone##digit#\" style=\"fill: \\##color#\" opacity = \"#small##digit#\" #maybeBlur#/>"],
 
@@ -14,13 +16,63 @@
 	"digit":["0","1","2","3","4","5","6","7","8","9" ],
 	"digittens":["#modifier##digit#"],
 	"whichdigit":["#digit#","#digittens#"],
-	"range":["0.1","0.2","0.3","0.4","0.5"],
+	"whichdigitcurve":["#digit#","1#digit#"],
+	"multiplier":["#whichdigit#","#whichdigit#","#whichdigitcurve#","#whichdigit#","#whichdigit#","#whichdigit##whichdigit#","#whichdigit##whichdigit##whichdigit#"],
+	"range":["0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"],
 	"modifier":["1","2","3"],
 	"strokestyle":["miter","round","bevel"],
 	
 
 	"dasharray":["0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"],
 	"dasharrays":["#yesdasharray#","#nodasharray#"],
-	"yesdasharray":["#dasharray#,#dasharray#"],
-	"nodasharray":["0,0"]
+	"yesdasharray":["#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#,#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#,#dasharray#,#dasharray#,#dasharray#"],
+	"nodasharray":["0,0"],
+
+"choices":["{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","#obliquestrategies#"],
+
+"obliquestrategies":[
+	"A line has two sides", 
+"A very small object. Its center", 
+"Abandon desire", 
+"Abandon normal instructions", 
+"Accept advice", 
+"Adding on", 
+"Always give yourself credit for having more than personality", 
+"Ask people to work against their better judgement", 
+"Ask your body", 
+"Balance the consistency principle with the inconsistency principle",
+"Be dirty", 
+"Be extravagant", 
+"Breathe more deeply", 
+"Bridges -- build -- burn", 
+"Cascades", 
+"Change ambiguities to specifics", 
+"Change instrument roles",
+"Change nothing and continue consistently", 
+"Children -- speaking -- singing", 
+"Cluster analysis", 
+"Consider different fading systems", 
+"Consult other sources -- promising -- unpromising", 
+"Convert a melodic element into a rhythmic element",
+"Courage!", 
+"Cut a vital connection", 
+"Decorate, decorate", 
+"Destroy nothing; Destroy the most important thing", 
+"Discard an axiom", 
+"Disciplined self-indulgence",
+"Discover your formulas and abandon them", 
+"Display your talent", 
+"Distort time", 
+"Do nothing for as long as possible", 
+"Do something boring",
+"Do something sudden, destructive and unpredictable", 
+"Do the last thing first", 
+"Do the washing up", 
+"Do the words need changing?", 
+"Do we need holes?", 
+"Don't avoid what is easy", 
+"Emphasize differences", 
+"Emphasize repetitions", 
+"Emphasize the flaws"
+]
 }
