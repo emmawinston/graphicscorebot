@@ -1,5 +1,5 @@
 {
-	"origin":["#choices#"],
+	"origin":["#choicesandstrategies#"],
 
 	"staff":["<rect y=\"4\" width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"  /><rect y=\"6\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"8\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"10\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"12\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\" />"],
 	
@@ -28,7 +28,9 @@
 	"yesdasharray":["#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#,#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#,#dasharray#,#dasharray#,#dasharray#"],
 	"nodasharray":["0,0"],
 
-"choices":["{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","{svg <svg viewBox=\"0 0 40 20\">#staff##lines#</svg>}","#obliquestrategies#"],
+"choices":["{svg <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"400\" height=\"200\" viewBox=\"0 0 40 20\" style=\"enable-background:new 0 0 40 20;\" id=\"svg2\" xml:space=\"preserve\">#staff##lines#</svg>}"],
+
+"choicesandstrategies":["#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#obliquestrategies#","#obliquestrategies#","#obliquestrategies#","#obliquestrategies#","B E G I N", " E N D"],
 
 "obliquestrategies":[
 	"A line has two sides", 
