@@ -1,15 +1,19 @@
 {
 	"origin":["#choicesandstrategies#"],
 
-	"staff":["<rect y=\"4\" width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"  /><rect y=\"6\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"8\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"10\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"12\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\"width=\"40\" height=\"2\" style=\"fill:none;stroke:\\#000000;stroke-width:0.2;\" />"],
+"choicesandstrategies":["#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#,#obliquestrategies#","B E G I N", " E N D"],
+
+"choices":["{svg <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"400\" height=\"200\" viewBox=\"0 0 40 20\" style=\"enable-background:new 0 0 40 20;\" id=\"svg2\" xml:space=\"preserve\">#staff##lines#</svg>}"],
+
+	"staff":["<rect y=\"4\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"  /><rect y=\"6\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"8\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"10\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"12\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\" />",
+"<rect y=\"4\" width=\"40\" height=\"10\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"  />"
+],
 	
 	"lines":["#line1#", "#line2#"],	
 
 	"line1":["<polyline points=\"#whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:\\##color#;stroke-width:#range#;\"    />"],
 
 	"line2":["<path d=\"M #digit# #digit# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# 40 1 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:\\##color#;stroke-width:#range#;\"  />"],
-	
-	"rect":["<rect x=\"#digit##digit#\" y=\"#digit##digit#\" height=\"#leastone##digit#\" width=\"#leastone##digit#\" style=\"fill: \\##color#\" opacity = \"#small##digit#\" #maybeBlur#/>"],
 
 	"color":["#hex##hex##hex##hex##hex##hex#"],
 	"hex":["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"],
@@ -27,10 +31,6 @@
 	"dasharrays":["#yesdasharray#","#nodasharray#"],
 	"yesdasharray":["#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#,#dasharray#,#dasharray#","#dasharray#,#dasharray#,#dasharray#,#dasharray#,#dasharray#,#dasharray#"],
 	"nodasharray":["0,0"],
-
-"choices":["{svg <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"400\" height=\"200\" viewBox=\"0 0 40 20\" style=\"enable-background:new 0 0 40 20;\" id=\"svg2\" xml:space=\"preserve\">#staff##lines#</svg>}"],
-
-"choicesandstrategies":["#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#obliquestrategies#","#obliquestrategies#","#obliquestrategies#","#obliquestrategies#","B E G I N", " E N D"],
 
 "obliquestrategies":[
 	"A line has two sides", 
@@ -78,3 +78,8 @@
 "Emphasize the flaws"
 ]
 }
+
+
+
+
+
