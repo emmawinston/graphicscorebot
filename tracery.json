@@ -1,25 +1,36 @@
 {
 	"origin":["#choicesandstrategies#"],
 
-"choicesandstrategies":["#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#obliquestrategies#","B E G I N", " E N D","B E G I N", " E N D","B E G I N", " E N D"],
+"choicesandstrategies":["#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#choices#","#obliquestrategies#","#obliquestrategies#","B E G I N", " E N D","B E G I N", " E N D","B E G I N", " E N D"],
 
-"choices":["{svg <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"400\" height=\"200\" viewBox=\"0 0 40 20\" style=\"enable-background:new 0 0 40 20;\" id=\"svg2\" xml:space=\"preserve\">#staff##lines##circles##circles##circles##circles##circles##circles##rectangles##circles##circles##rectangles##circles##circles##circles##circles##rectangles#</svg>}"],
+"choices":["{svg <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"400\" height=\"200\" viewBox=\"0 0 40 20\" style=\"enable-background:new 0 0 40 20;\" id=\"svg2\" xml:space=\"preserve\">#staff##lines##circles##circles##circles##circles##circles##circles##rectangles##rectangles##rectangles##rectangles##circles##circles##rectangles##circles##circles##circles##circles##rectangles#</svg>}",
+
+"{svg <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"400\" height=\"200\" viewBox=\"0 0 40 20\" style=\"enable-background:new 0 0 40 20;\" id=\"svg2\" xml:space=\"preserve\">#staff##blacklines##blackcircles##blackcircles##blackcircles##blackcircles##blackcircles##blackcircles##blackrectangles##blackrectangles##blackrectangles##blackrectangles##blackcircles##blackcircles##blackrectangles##blackcircles##blackcircles##blackcircles##blackcircles##blackrectangles#</svg>}"
+],
 
 	"staff":["<rect y=\"4\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"  /><rect y=\"6\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"8\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"10\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"12\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\" />","<rect y=\"4\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"  /><rect y=\"6\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"8\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"10\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\" /><rect y=\"12\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"/> <rect y=\"12\" width=\"40\" height=\"2\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\" />",
 "<rect y=\"4\" width=\"40\" height=\"10\" style=\"fill:white;stroke:\\#000000;stroke-width:0.2;\"  />"
 ],
 	
 "circles":["<circle cx=\"#canvaswidth#\" cy=\"#canvasheight#\" r=\"#circlesize#\" style=\"fill:#color#;stroke:\\#000000;stroke-width:0;\" fill-opacity=\"#opacity#\"  />","","","",""],
-
 "rectangles":["<rect x=\"#canvaswidth#\" y=\"#canvasheight#\" width=\"#rectanglesize#\" height=\"#rectanglesize#\"  style=\"fill:#color#;stroke:\\#000000;stroke-width:0;\" fill-opacity=\"#opacity#\"  />","","","",""],
+
+"blackcircles":["<circle cx=\"#canvaswidth#\" cy=\"#canvasheight#\" r=\"#circlesize#\" style=\"fill:\\#000000;stroke:\\#000000;stroke-width:0;\" fill-opacity=\"#opacity#\"  />","","","",""],
+"blackrectangles":["<rect x=\"#canvaswidth#\" y=\"#canvasheight#\" width=\"#rectanglesize#\" height=\"#rectanglesize#\"  style=\"fill:\\#000000;stroke:\\#000000;stroke-width:0;\" fill-opacity=\"#opacity#\"  />","","","",""],
+"blacklines":["#blackline1#","#blackline2#"],
+
+"blackline1":["<polyline points=\"#whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:\\#000000;stroke-width:#range#;\" stroke-opacity=\"#opacity#\"   />"],
+
+	"blackline2":["<path d=\"M #digit# #digit# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# 40 1 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:\\#000000;stroke-width:#range#;\" stroke-opacity=\"#strokeopacity#\"  />"],
 
 	"lines":["#line1#", "#line2#"],	
 
-	"line1":["<polyline points=\"#whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#color#;stroke-width:#range#;\" stroke-opacity=\"#opacity#\"   />"],
+	"line1":["<polyline points=\"#whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#, #whichdigit# #multiplier#\" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#linecolor#;stroke-width:#range#;\" stroke-opacity=\"#opacity#\"   />"],
 
-	"line2":["<path d=\"M #digit# #digit# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# 40 1 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#color#;stroke-width:#range#;\" stroke-opacity=\"#strokeopacity#\"  />"],
+	"line2":["<path d=\"M #digit# #digit# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# #whichdigitcurve# q #whichdigitcurve# #whichdigitcurve# 40 1 \" stroke-dasharray=\"#dasharrays#\" style=\"fill:none;stroke:#linecolor#;stroke-width:#range#;\" stroke-opacity=\"#strokeopacity#\"  />"],
 
 	"color":["deeppink","cyan","yellow","orange","gray","red","crimson","brown","tomato","orangered","orchid","palevioletred","purple","forestgreen","darkorchid","lawngreen","rosybrown","hotpink","dodgerblue","yellowgreen","maroon","darkorange","blueviolet"],
+	"linecolor":["cyan","yellow","orange","gray","red","purple","hotpink","dodgerblue","forestgreen","black"],
 	"hex":["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"],
 	"digit":["0","1","2","3","4","5","6","7","8","9" ],
 	"digittens":["#modifier##digit#"],
