@@ -1,14 +1,31 @@
+Cheap Bots, Done Quick!
+
+Note: currently setting variables (like part 6 here) is bugged. They will only work if not specified within their own node.
+
+Bots are written in Tracery, a generative grammar specified as a JSON string. This site will automatically expand your text, starting from the "origin" node, and then tweet it on a fixed schedule. If it generates a duplicate tweet, or a tweet over 140 characters, it will retry up to 5 times. Line breaks can be entered with the special sequence \n, and hashtags with \\#.
+
+SVG files can now be attached to tweets. The syntax looks like this: {svg <svg ...> ... </svg>}. SVGs will need to specify a width and height attribute. Note that "s within SVG files need to be escaped as \", as does #s (\\#). {s and }s can be escaped as \\{ and \\}. Note: this feature is still in development, so the tweet button on this page will not work. And the debugging info is better in FF than other browsers.
+
+I make no guarantees about the reliability or privacy of this service. If you create a bot I deem abusive or otherwise unpleasant (for example, @mentioning people who have not consented, posting insults or using slurs) I will take it down. Any questions, bug reports or comments, you can reach me at @v21 or at vtwentyone@gmail.com
+
+Tracery tutorial
+Tracery visual editor
+Example of a self-hosted bot running on Tracery
+
+
+Tracery JSON
+
 {
 	"origin": [
 		"#choicesandstrategies#"
 	],
 	"choicesandstrategies": [
-		"#preface##staff#"
+		"#preface##staff##group-path6##ending#"
 	],
 
-"preface":"{<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"#baseh#\" width=\"#basew#\">",
+"preface":"{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"#baseh#\" width=\"#basew#\">",
 
-"ending":"</svg>}",
+"ending":"</svg> }",
 
 	"staff": [
 
@@ -86,23 +103,11 @@
 		"1"
 	],
 
-"group-path6":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 2#digit##digit# #curvepoints#  M #basew# #baseh# Z\"  fill=\"red\"></path>",
-					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 2#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"   fill=\"white\"></path>"],
-	"group-path5":["<path d=\"M #basew# #baseh# L 0 #basew# L 0  3#0-5##digit# #curvepoints#  M #basew# #baseh# Z\" fill=\"white\"></path>",
-					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 3#0-5##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"white\"></path>"],
-	"group-path4":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 3#4-9##digit# #curvepoints#  M #basew# #baseh# Z\"  fill=\"white\"></path>",
-					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 3#4-9##digit# #curvepoints_r#  M 0 #baseh# Z\" fill=\"white\"></path>"],
-	"group-path3":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 4#0-5##digit# #curvepoints#  M #basew# #baseh# Z\" fill=\"white\"></path>",
-					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 4#0-5##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"white\"></path>"],
-	"group-path2":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 4#4-9##digit# #curvepoints#  M #basew# #baseh# Z\"  fill=\"white\"></path>",
-					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 4#4-9##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"white\"></path>"],
-	"group-path1":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 5#0-5##digit# #curvepoints#  M #basew# #baseh# Z\" fill=\"white\"></path>",
-					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 5#0-5##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"white\"></path>"],
+"group-path6":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 2#digit##digit# #curvepoints#  M #basew# #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"></path>",
+					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 2#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"   fill=\"none\"  stroke=\"#linecolor#\"></path>"],
 
 	"curvepoints":["#curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint#"],
 	"curvepoints_r":["#curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r#"],
-	"curvepoints_cloud":["[tx:#tx_cloud#]q #qx1_cloud# #qy1_cloud# #qx_init_cloud# #qy_init_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud#"],
-	"curvepoints_cloud_r":["[tx:#tx_cloud#]q -#qx1_cloud# #qy1_cloud# -#qx_init_cloud# #qy_init_cloud# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r#"],
 
 "dist":["2#digit#","2#digit#","4#digit#","3#digit#","5#digit#","6#digit#","7#digit#","8#digit#"],
 	"dist_half":["#digit#","#digit#","#0-5#"],
@@ -124,7 +129,11 @@
 
 	"curvepoint_cloud":"t #tx# #ty_cloud#",
 	"curvepoint_cloud_r":"t -#tx# #ty_cloud#",
-"basew":"400",
+"basew":"1000",
 	"basew+200":"600",
-	"baseh":"200" 
+	"baseh":"400" 
 }
+
+  TWEET
+  post a tweet as   scorebottest  
+ Tracery source at cheapbotsdonequick.com/source/scorebottest.  
