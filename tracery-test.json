@@ -1,20 +1,3 @@
-Cheap Bots, Done Quick!
-
-Note: currently setting variables (like part 6 here) is bugged. They will only work if not specified within their own node.
-
-Bots are written in Tracery, a generative grammar specified as a JSON string. This site will automatically expand your text, starting from the "origin" node, and then tweet it on a fixed schedule. If it generates a duplicate tweet, or a tweet over 140 characters, it will retry up to 5 times. Line breaks can be entered with the special sequence \n, and hashtags with \\#.
-
-SVG files can now be attached to tweets. The syntax looks like this: {svg <svg ...> ... </svg>}. SVGs will need to specify a width and height attribute. Note that "s within SVG files need to be escaped as \", as does #s (\\#). {s and }s can be escaped as \\{ and \\}. Note: this feature is still in development, so the tweet button on this page will not work. And the debugging info is better in FF than other browsers.
-
-I make no guarantees about the reliability or privacy of this service. If you create a bot I deem abusive or otherwise unpleasant (for example, @mentioning people who have not consented, posting insults or using slurs) I will take it down. Any questions, bug reports or comments, you can reach me at @v21 or at vtwentyone@gmail.com
-
-Tracery tutorial
-Tracery visual editor
-Example of a self-hosted bot running on Tracery
-
-
-Tracery JSON
-
 {
 	"origin": [
 		"#choicesandstrategies#"
@@ -29,9 +12,9 @@ Tracery JSON
 
 	"staff": [
 
-"<rect y=\"27\" width=\"400\" height=\"27\" style=\"fill:white;stroke:black;stroke-width:1.2;\" /><rect y=\"54\" width=\"400\" height=\"27\" style=\"fill:white;stroke:black;stroke-width:1.2;\"/><rect y=\"81\" width=\"400\" height=\"27\" style=\"fill:white;stroke:black;stroke-width:1.2;\" /><rect y=\"108\" width=\"400\" height=\"27\" style=\"fill:white;stroke:black;stroke-width:1.2;\"/>",
+"<rect y=\"75\" width=\"1224\" height=\"50\" style=\"fill:white;stroke:black;stroke-width:1.2;\" /><rect y=\"125\" width=\"1224\" height=\"50\" style=\"fill:white;stroke:black;stroke-width:1.2;\"/><rect y=\"175\" width=\"1224\" height=\"50\" style=\"fill:white;stroke:black;stroke-width:2;\" /><rect y=\"225\" width=\"1224\" height=\"50\" style=\"fill:white;stroke:black;stroke-width:1.2;\"/>",
 
-"<rect y=\"30\" width=\"400\" height=\"108\" style=\"fill:white;stroke:black;stroke-width:1;\"  />"
+"<rect y=\"80\" width=\"1224\" height=\"200\" style=\"fill:white;stroke:black;stroke-width:2;\"  />"
 	],
 	"color": [
 		"deeppink",
@@ -103,8 +86,8 @@ Tracery JSON
 		"1"
 	],
 
-"group-path6":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 2#digit##digit# #curvepoints#  M #basew# #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"></path>",
-					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 2#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"   fill=\"none\"  stroke=\"#linecolor#\"></path>"],
+"group-path6":["<path d=\"M #basew200# #baseh# L 0 #basew200# L 0 1#digit##digit# #curvepoints#  M #basew200# #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"  stroke-width=\"10\"></path>",
+					"<path d=\"M #basew200# #baseh# L #basew200# #baseh# L #basew200# 1#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"none\"  stroke=\"#linecolor#\"  stroke-width=\"10\"></path>"],
 
 	"curvepoints":["#curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint#"],
 	"curvepoints_r":["#curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r#"],
@@ -126,14 +109,7 @@ Tracery JSON
 	"curvepoint":"q #dist_half# #h_rel_half# #dist# #h_rel#",
 	"curvepoint_r":"q -#dist_half# #h_rel_half# -#dist# #h_rel#",
 
-
-	"curvepoint_cloud":"t #tx# #ty_cloud#",
-	"curvepoint_cloud_r":"t -#tx# #ty_cloud#",
-"basew":"1000",
-	"basew+200":"600",
-	"baseh":"400" 
+"basew":"1224",
+"basew200":"1424",
+	"baseh":"350" 
 }
-
-  TWEET
-  post a tweet as   scorebottest  
- Tracery source at cheapbotsdonequick.com/source/scorebottest.  
