@@ -1,0 +1,130 @@
+{
+	"origin": [
+		"#choicesandstrategies#"
+	],
+	"choicesandstrategies": [
+		"#preface##staff#"
+	],
+
+"preface":"{<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"#baseh#\" width=\"#basew#\">",
+
+"ending":"</svg>}",
+
+	"staff": [
+
+"<rect y=\"27\" width=\"400\" height=\"27\" style=\"fill:white;stroke:black;stroke-width:1.2;\" /><rect y=\"54\" width=\"400\" height=\"27\" style=\"fill:white;stroke:black;stroke-width:1.2;\"/><rect y=\"81\" width=\"400\" height=\"27\" style=\"fill:white;stroke:black;stroke-width:1.2;\" /><rect y=\"108\" width=\"400\" height=\"27\" style=\"fill:white;stroke:black;stroke-width:1.2;\"/>",
+
+"<rect y=\"30\" width=\"400\" height=\"108\" style=\"fill:white;stroke:black;stroke-width:1;\"  />"
+	],
+	"color": [
+		"deeppink",
+		"cyan",
+		"yellow",
+		"orange",
+		"gray",
+		"red",
+		"crimson",
+		"brown",
+		"tomato",
+		"orangered",
+		"orchid",
+		"palevioletred",
+		"purple",
+		"forestgreen",
+		"darkorchid",
+		"lawngreen",
+		"rosybrown",
+		"hotpink",
+		"dodgerblue",
+		"yellowgreen",
+		"maroon",
+		"darkorange",
+		"blueviolet"
+	],
+	"linecolor": [
+		"cyan",
+		"yellow",
+		"orange",
+		"gray",
+		"red",
+		"purple",
+		"hotpink",
+		"dodgerblue",
+		"forestgreen",
+		"black"
+	],
+	"opacity": [
+		"0",
+		"0.1",
+		"0.2",
+		"0.3",
+		"0.4",
+		"0.5",
+		"0.6",
+		"0.7",
+		"0.8",
+		"0.9",
+		"1",
+		"1"
+	],
+	"strokeopacity": [
+		"0",
+		"0.1",
+		"0.2",
+		"0.3",
+		"0.4",
+		"0.5",
+		"0.6",
+		"0.7",
+		"0.8",
+		"0.9",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1"
+	],
+
+"group-path6":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 2#digit##digit# #curvepoints#  M #basew# #baseh# Z\"  fill=\"red\"></path>",
+					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 2#digit##digit# #curvepoints_r#  M 0 #baseh# Z\"   fill=\"white\"></path>"],
+	"group-path5":["<path d=\"M #basew# #baseh# L 0 #basew# L 0  3#0-5##digit# #curvepoints#  M #basew# #baseh# Z\" fill=\"white\"></path>",
+					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 3#0-5##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"white\"></path>"],
+	"group-path4":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 3#4-9##digit# #curvepoints#  M #basew# #baseh# Z\"  fill=\"white\"></path>",
+					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 3#4-9##digit# #curvepoints_r#  M 0 #baseh# Z\" fill=\"white\"></path>"],
+	"group-path3":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 4#0-5##digit# #curvepoints#  M #basew# #baseh# Z\" fill=\"white\"></path>",
+					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 4#0-5##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"white\"></path>"],
+	"group-path2":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 4#4-9##digit# #curvepoints#  M #basew# #baseh# Z\"  fill=\"white\"></path>",
+					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 4#4-9##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"white\"></path>"],
+	"group-path1":["<path d=\"M #basew# #baseh# L 0 #basew# L 0 5#0-5##digit# #curvepoints#  M #basew# #baseh# Z\" fill=\"white\"></path>",
+					"<path d=\"M 0 #baseh# L #basew# #baseh# L #basew# 5#0-5##digit# #curvepoints_r#  M 0 #baseh# Z\"  fill=\"white\"></path>"],
+
+	"curvepoints":["#curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint# #curvepoint#"],
+	"curvepoints_r":["#curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r# #curvepoint_r#"],
+	"curvepoints_cloud":["[tx:#tx_cloud#]q #qx1_cloud# #qy1_cloud# #qx_init_cloud# #qy_init_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud# #curvepoint_cloud#"],
+	"curvepoints_cloud_r":["[tx:#tx_cloud#]q -#qx1_cloud# #qy1_cloud# -#qx_init_cloud# #qy_init_cloud# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r# #curvepoint_cloud_r#"],
+
+"dist":["2#digit#","2#digit#","4#digit#","3#digit#","5#digit#","6#digit#","7#digit#","8#digit#"],
+	"dist_half":["#digit#","#digit#","#0-5#"],
+	"h_rel":["-2#digit#", "1#digit#", "-1#digit#","#digit#", "-#digit#","2#digit#"],
+	"h_rel_half":["-#digit#", "#0-5#", "-#0-5#","#digit#"],
+	"h" : ["2#digit##digit#","2#digit##digit#","3#digit##digit#","1#digit##digit#"],
+
+"digit":["0","1","2","3","4","5","6","7","8","9"],
+	"0-2":["0","1","2"],
+	"1-3":["3","1","2"],
+	"0-5":["0","1","2","3","4","5"],
+	"4-9":["4","5","6","7","8","9"],
+	"hexdigit":["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"],
+	"highhex":["a","b","c","d","e","f"],
+
+	"curvepoint":"q #dist_half# #h_rel_half# #dist# #h_rel#",
+	"curvepoint_r":"q -#dist_half# #h_rel_half# -#dist# #h_rel#",
+
+
+	"curvepoint_cloud":"t #tx# #ty_cloud#",
+	"curvepoint_cloud_r":"t -#tx# #ty_cloud#",
+"basew":"400",
+	"basew+200":"600",
+	"baseh":"200" 
+}
