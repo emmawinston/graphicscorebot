@@ -1,9 +1,26 @@
+Cheap Bots, Done Quick!
+
+Note: currently setting variables (like part 6 here) is bugged. They will only work if not specified within their own node.
+
+Bots are written in Tracery, a generative grammar specified as a JSON string. This site will automatically expand your text, starting from the "origin" node, and then tweet it on a fixed schedule. If it generates a duplicate tweet, or a tweet over 140 characters, it will retry up to 5 times. Line breaks can be entered with the special sequence \n, and hashtags with \\#.
+
+SVG files can now be attached to tweets. The syntax looks like this: {svg <svg ...> ... </svg>}. SVGs will need to specify a width and height attribute. Note that "s within SVG files need to be escaped as \", as does #s (\\#). {s and }s can be escaped as \\{ and \\}. Note: this feature is still in development, so the tweet button on this page will not work. And the debugging info is better in FF than other browsers.
+
+I make no guarantees about the reliability or privacy of this service. If you create a bot I deem abusive or otherwise unpleasant (for example, @mentioning people who have not consented, posting insults or using slurs) I will take it down. Any questions, bug reports or comments, you can reach me at @v21 or at vtwentyone@gmail.com
+
+Tracery tutorial
+Tracery visual editor
+Example of a self-hosted bot running on Tracery
+
+
+Tracery JSON
+
 {
 	"origin": [
 		"#choicesandstrategies#"
 	],
 	"choicesandstrategies": [
-		"#preface##staff##group-path##lines##circles##rectangles##ending#"
+		"#preface##staff##group-path##lines##circles##circles##circles##circles##circles##circles##circles##circles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#"
 	],
 
 "preface":"{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"#baseh#\" width=\"#basew#\">",
@@ -175,19 +192,16 @@
 
 "tensandhundreds":["#digittens##digit#","#digit##digit#"],
 
-"circles":["<circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  />",
-"<circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  />",
-"<circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  />",
-"<circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  />",
-"<circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  />",
-"<circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  />",
-"<circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  /><circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  />",
-""
+"circles":["<circle cx=\"#percentages#\" cy=\"#percentages#\" r=\"#tensandhundreds#\" fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\"  />",""
 ],
 
-"rectangles":["<rect x=\"#percentages#\" y=\"#percentages#\" width=\"#digit##digit##digit#\" height=\"#digit##digit##digit#\"  style=\"fill:#color#;stroke:\\#000000;stroke-width:0;\" fill-opacity=\"#opacity#\"  />","","","",""],
+"rectangles":["<rect x=\"#percentages#\" y=\"#percentages#\" width=\"#tensandhundreds#\" height=\"#tensandhundreds#\"  fill=\"#color#\"  stroke-width=\"0\"  fill-opacity=\"#opacity#\" />",""],
 
 "basew":"1224",
 "basew200":"1424",
 	"baseh":"350" 
 }
+
+  TWEET
+  post a tweet as   scorebottest  
+ Tracery source at cheapbotsdonequick.com/source/scorebottest.  
