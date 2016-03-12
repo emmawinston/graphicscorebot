@@ -3,10 +3,13 @@
 		"#choicesandstrategies#"
 	],
 	"choicesandstrategies": [
-		"#preface##staff##group-path##lines##circles##circles##circles##circles##circles##circles##circles##circles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
-		"#preface##staff##group-path##lines##circles##circles##circles##circles##circles##circles##circles##circles##ending#",
-		"#preface##staff##group-path##lines##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
-		"#preface##staff##group-path##lines##ending#"
+		"#preface##staff##clefs##group-path##lines##circles##circles##circles##circles##circles##circles##circles##circles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
+		"#preface##staff##clefs##group-path##lines##circles##circles##circles##circles##circles##circles##circles##circles##ending#",
+		"#preface##staff##clefs##group-path##lines##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
+		"#preface##staff##clefs##circles##circles##circles##circles##circles##circles##circles##circles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
+		"#preface##staff##clefs##circles##circles##circles##circles##circles##circles##circles##circles##ending#",
+		"#preface##staff##clefs##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##rectangles##ending#",
+		"#preface##staff##clefs##group-path##lines##ending#"
 	],
 
 "preface":"{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"#baseh#\" width=\"#basew#\">",
@@ -19,6 +22,14 @@
 
 "<rect y=\"80\" width=\"1224\" height=\"200\" style=\"fill:white;stroke:black;stroke-width:2;\"  />"
 	],
+
+"clefs": ["",
+
+"<g fill=\"#000000\" transform=\"translate(0,200) scale(0.10000000149011612,-0.10000000149011612) \"><path d=\"m733,1235c-105,-23 -190,-70 -269,-149c-109,-110 -151,-220 -142,-377c8,-152 78,-260 189,-293c66,-20 102,-20 167,-1c62,19 115,62 145,119c31,59 31,203 0,261c-72,135 -224,165 -350,69l-33,-25l0,33c0,52 42,129 96,177c90,80 202,117 330,109c166,-11 275,-120 329,-331c80,-315 43,-658 -96,-888c-68,-115 -119,-177 -216,-269c-110,-104 -247,-195 -419,-275c-243,-114 -246,-117 -212,-139c28,-18 375,120 560,223c200,111 396,274 508,422c73,98 151,255 180,364c27,100 38,326 21,435c-39,251 -181,437 -387,508c-124,43 -281,53 -401,27z\"/><path d=\"m1796,1059c-34,-10 -63,-35 -82,-71c-41,-80 21,-178 113,-178c59,0 93,20 121,68c27,49 27,62 3,111c-31,60 -92,88 -155,70z\"/><path d=\"m1762,460c-34,-21 -62,-72 -62,-112c0,-68 74,-133 143,-124c53,6 84,30 109,81l22,45l-22,45c-38,79 -120,107 -190,65z\"/></g>",
+
+"<g fill=\"#000000\" transform=\"translate(0,300) scale(0.10000000149011612,-0.10000000149011612) \"><path d=\"m995,2906c-75,-33 -166,-179 -205,-329c-30,-119 -34,-223 -16,-386c10,-79 13,-147 9,-151c-287,-234 -404,-384 -454,-578c-34,-132 -19,-263 45,-395c45,-92 108,-164 199,-225c103,-68 190,-94 301,-90c80,3 87,1 91,-17c16,-75 36,-279 33,-339c-4,-97 -37,-160 -103,-201c-42,-26 -58,-30 -119,-30c-52,0 -81,5 -110,21c-50,26 -55,39 -15,42c56,4 100,32 120,76c23,52 23,90 0,142c-45,98 -156,123 -236,53c-92,-81 -82,-238 21,-329c42,-36 75,-52 150,-69c88,-21 221,24 284,95c70,81 81,155 51,374c-12,85 -23,164 -26,175c-3,16 7,25 57,49c206,96 286,353 178,572c-54,111 -163,182 -287,187c-62,2 -55,-12 -79,165l-16,124l94,96c140,143 186,235 208,416c28,216 -19,456 -104,541c-29,29 -30,29 -71,11zm80,-242c23,-9 45,-58 45,-101c0,-59 -27,-149 -67,-225c-39,-74 -204,-259 -219,-245c-4,4 -8,65 -8,135c0,113 3,136 27,206c60,171 145,259 222,230zm-236,-971c7,-60 14,-117 17,-128c4,-16 -4,-24 -43,-40c-145,-59 -234,-252 -189,-407c25,-87 117,-178 181,-178c26,0 17,16 -24,43c-130,86 -93,307 63,367c16,6 31,8 34,5c3,-3 22,-127 42,-275l36,-270l-34,-6c-18,-4 -70,-4 -115,-2c-66,3 -95,11 -149,37c-230,110 -302,360 -175,606c23,44 70,99 179,208c81,81 152,147 156,147c5,0 14,-48 21,-107zm196,-357c102,-47 151,-136 143,-263c-6,-92 -28,-143 -86,-195c-36,-32 -79,-56 -86,-46c-2,1 -17,113 -35,248c-17,135 -33,253 -35,263c-6,25 37,22 99,-7z\"/></g>"],
+
+
 	"color": [
 		"deeppink",
 		"cyan",
